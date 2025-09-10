@@ -1,0 +1,13 @@
+package dominio;
+
+public class VendasD {
+    private double[] vendas;
+
+    public VendasD(double[] vendas) {
+        this.vendas = vendas;
+    }
+
+    public double[] listarVendas() {
+        return vendas;
+    }
+}
